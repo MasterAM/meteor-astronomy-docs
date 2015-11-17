@@ -3,7 +3,12 @@ Built in behaviors module is a nice way of reusing your code. If you have simila
 
 **Adding behavior to the class**
 
-We add behaviors to the class by providing their names and options under the `behaviors` property in the class definition. We have to ways of defining behaviors. We can use default options and provide only behavior name or provide behavior name as an object key and behavior options as a value. Let's see both ways of defining them.
+We add behaviors to the class by providing their names and options under the `behaviors` property in the class definition. We have two ways of specifying behaviors:
+
+1. An array of behavior names, which sets the default options for each behavior.
+2. An object with behavior names as keys and options as values.
+
+Let's see both ways of defining them.
 
 ```js
 User = Astro.Class({

@@ -63,9 +63,9 @@ The index name is `fullName`. An index definition consists of two objects: list 
 
 A value of the `fields` property is an object with the key-value pairs where the key is a field name and the value describes the type of index for that field. For an ascending index order on a field, specify a value of 1 and for descending index order, specify a value of -1. You can also use text, geospatial, and hashed types.
 
-The `options` property let's you specify details of your index like index uniqueness. You can read more about available options in the [MongoDB documentation](http://docs.mongodb.org/manual/reference/method/db.collection.createIndex/#ensureindex-options).
+The `options` property lets you specify details of your index like index uniqueness. You can read more about available options in the [MongoDB documentation](http://docs.mongodb.org/manual/reference/method/db.collection.createIndex/#ensureindex-options).
 
-Example of defining unique index:
+Example of defining a unique index:
 
 ```js
 User = Astro.Class({

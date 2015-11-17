@@ -7,9 +7,9 @@ Here is the order in which events are triggered:
 2. Child class event
 3. Global event
 
-You will learn about inheritance in the following sections of this documentation. For know, you have to know that events are triggered in the order showed above.
+You will learn about inheritance in the following sections of this documentation. For now, you have to know that events are triggered in the order shown above.
 
-In any moment, we can stop execution of event handlers to come by calling the `stopPropagation()` method on an event object passed to the event handler. The example below shows how to stop execution of the global event during the execution of the event handler on the class level.
+At any moment, we can stop the execution of upcoming event handlers by calling the `stopPropagation()` method of the event object passed to the event handler. The example below shows how to stop the execution of the global event during the execution of the event handler on the class level.
 
 ```js
 User = Astro.Class({

@@ -1,5 +1,5 @@
 {{#template name="PreventingDefault"}}
-There are processes you may want to prevent from occurring. The example of such process may be saving a document. You won't probably use it on a regular basis. It's more common to use it during the behaviors or modules implementation. Let's take a look at the example:
+There are processes you may want to prevent from occurring. The example of such process may be saving a document. You probably won't use it on a regular basis. It's more common to use it during the behaviors or modules implementation. Let's take a look at the example:
 
 ```js
 User = Astro.Class({

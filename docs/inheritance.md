@@ -1,7 +1,7 @@
 {{#template name="Inheritance"}}
-Creating a new class by inheriting from other class can give you two benefits:
+Creating a new class by inheriting from another class can give you two benefits:
 
-- Each instance of a child class is also instance of a parent class
+- Each instance of a child class is also an instance of a parent class
 - You can store instances of different classes in the same collection
 
 At first, let's check how to inherit a class:
